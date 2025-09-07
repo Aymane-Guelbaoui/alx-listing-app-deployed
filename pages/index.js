@@ -4,8 +4,7 @@ import { listings } from './api/listings'
 export default function Home() {
   return (
     <div>
-      <h1>Listings</h1>
-      {listings.map(listing => <ListingCard key={listing.id} listing={listing} />)}
+      <h1>Hello</h1>
     </div>
   )
 }
